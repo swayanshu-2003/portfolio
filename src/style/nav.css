@@ -1,0 +1,135 @@
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  font-family: 'Baloo Bhaina 2', sans-serif;
+  list-style: none;
+  background-color: #0c1d36;
+  /* border: 2px solid red; */
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 3;
+}
+
+.navlinks {
+  display: flex;
+  font-family: 'Baloo Bhaina 2', sans-serif;
+  font-size: 18px;
+}
+
+.links a {
+  text-decoration: none;
+  margin: 0rem 1rem;
+  color: white;
+
+}
+
+.hover-link:active {
+  color: yellow;
+}
+
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.container li {
+  display: inline-block;
+}
+
+.container li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #FFF;
+  /* font-family: Source Sans Pro; */
+  font-weight: lighter;
+  /* font-size: 28px; */
+  padding: 0 20px;
+}
+
+.hover-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #FFF;
+  transition: width .3s;
+}
+
+.hover-link:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+
+
+.logo {
+  height: 30px;
+}
+
+button {
+  /* width: 0.3rem; */
+  font-family: inherit;
+  font-size: 16px;
+  background: royalblue;
+  color: white;
+  padding: 0rem 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+button span {
+  display: block;
+  margin-left: 0.3em;
+  margin-top: 0.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(2.4em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(11rem);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}

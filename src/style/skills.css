@@ -1,0 +1,51 @@
+.about {
+    width: 100%;
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.skillsTitle{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin: 2rem;
+}
+.skillsDesc{
+    color: white;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.skillbars{
+    box-shadow: rgb(248 0 0 / 0%) 0px 1px 3px 0px, rgb(0 97 195 / 79%) 0px 0px 0px 1px;
+    /* border: 1px solid red; */
+    height: 5rem;
+    width: 44rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    background-color: #051022e8;
+    display: flex;
+
+}
+.barimg{
+    width: 6rem;
+    /* padding: 1rem; */
+    margin: 0.7rem;
+}
+.barText{
+    padding: 0.3rem;
+    margin: 0.3rem;
+}
+.barHead{
+    margin: 0;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    /* text-align: center; */
+
+}
+.barBody{
+    margin: 0;
+    color: white;
+    text-align: center;
+}

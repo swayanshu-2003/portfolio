@@ -1,0 +1,55 @@
+.intro {
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    max-width: 70rem;
+    margin: 9rem auto;
+}
+
+.left {
+    width: 80%;
+}
+
+.name {
+    font-size: 2.99rem;
+    color: orange;
+    margin-top: 0.1rem !important;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.hello {
+    font-size: 1.8rem;
+    font-weight: lighter;
+    margin-bottom: -1rem;
+}
+
+.pic {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.codedText {
+    
+    height: 100vh;
+}
+.curser{
+    font-size: 2.99rem;
+}
+.codedtext{
+    font-size: 1.6rem;
+    color: rgb(220, 245, 0);
+}
+.designation{
+    font-size: 2.9rem;
+    color: whitesmoke;
+    font-family: 'Roboto Mono';
+}
+.tagline{
+    margin-top: 0.1rem;
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
