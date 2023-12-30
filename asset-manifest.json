@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2c64c496.css",
-    "main.js": "/portfolio/static/js/main.f9e51a25.js",
+    "main.css": "/portfolio/static/css/main.8173be62.css",
+    "main.js": "/portfolio/static/js/main.76ab2286.js",
     "static/media/gym.png": "/portfolio/static/media/gym.d6830d82dcbdf016672b.png",
     "static/media/food.png": "/portfolio/static/media/food.9c1beba21ecf30c04ef6.png",
     "static/media/my.gif": "/portfolio/static/media/my.771ef091745569fe40f1.gif",
@@ -15,13 +15,14 @@
     "static/media/projectdemo.png": "/portfolio/static/media/projectdemo.79d2c6f3a0f27a4750be.png",
     "static/media/react.png": "/portfolio/static/media/react.e18d6fa6a735233a29bd.png",
     "static/media/swayanshu-logo.png": "/portfolio/static/media/swayanshu-logo.eabe568c206c8cda7daf.png",
+    "static/media/effect-1.svg": "/portfolio/static/media/effect-1.d137bfb3535ec2efcf96a68919f78ed6.svg",
     "static/media/frontend.png": "/portfolio/static/media/frontend.eee08ae811f07aa49177.png",
     "index.html": "/portfolio/index.html",
-    "main.2c64c496.css.map": "/portfolio/static/css/main.2c64c496.css.map",
-    "main.f9e51a25.js.map": "/portfolio/static/js/main.f9e51a25.js.map"
+    "main.8173be62.css.map": "/portfolio/static/css/main.8173be62.css.map",
+    "main.76ab2286.js.map": "/portfolio/static/js/main.76ab2286.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c64c496.css",
-    "static/js/main.f9e51a25.js"
+    "static/css/main.8173be62.css",
+    "static/js/main.76ab2286.js"
   ]
 }
