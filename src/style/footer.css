@@ -1,7 +1,11 @@
 .footer{
     text-align: center;
-    color: white;
+    color: white !important;
     margin-top: 2rem;
     padding: 1rem;
     background-color: rgb(6 21 43 / 69%);
+}
+.footer a{
+    text-decoration: none;
+    color: white;
 }

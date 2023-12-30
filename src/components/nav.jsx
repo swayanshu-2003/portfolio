@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/nav.css';
 import img from '../img/swayanshu-logo.png';
-import {Link} from 'react-scroll';
+import { Link } from 'react-scroll';
 
 function Navbar() {
     return (
@@ -10,10 +10,9 @@ function Navbar() {
             <ul className="navlinks container">
                 <li className='links'><a className='hover-link' href="/">Home</a></li>
                 <li className='links'><a className='hover-link' href="">About</a></li>
-                <li className='links'><Link activeClass='active' to='skills' spy={true} smooth={true} offset = {-100} duration={500}>About</Link></li>
+                <li className='links'><Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500}>About</Link></li>
                 <li className='links'><a className='hover-link' href="">Projects</a></li>
-                <li className='links'><a className='hover-link' href="">Resume</a></li>
-                
+                <li className='links'><a className='hover-link' href="https://drive.google.com/file/d/1-xGm6fo9AR-833wwswigb4rAk3m3Umq6/view?usp=sharing" target='_blank'>Resume</a></li>
             </ul>
             <button>
                 <div class="svg-wrapper-1">

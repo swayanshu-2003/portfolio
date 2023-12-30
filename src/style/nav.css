@@ -1,16 +1,17 @@
-
 .navbar {
   margin: 0;
   padding: 0;
   font-family: 'Baloo Bhaina 2', sans-serif;
   list-style: none;
-  background-color: #0c1d36;
+  /* background-color: #0c1d36; */
+  background: linear-gradient(90deg, #07233b 1.67%, #041d34 39.95%, #04192d 58.24%, #040e18 80.28%, #050c16 101.48%);
+  margin: 0;
   /* border: 2px solid red; */
   position: sticky;
   top: 0;
   margin: 0 auto;
   width: 100%;
-  max-width: 75rem;
+  /* max-width: 75rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,7 +38,7 @@
 
 
 .container {
-  margin: 0;
+  margin: 0 ;
   position: absolute;
   top: 50%;
   left: 50%;

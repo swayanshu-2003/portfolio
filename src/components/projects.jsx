@@ -1,116 +1,69 @@
-import React from "react";
+import React, { useEffect } from "react";
 import '../style/projects.css';
 import img from '../img/projectdemo.png';
+import socialmedia from '../img/socialmedia.jpeg';
+import sms from '../img/sms.png';
+import eres from '../img/eres.png';
+import portfolio from '../img/portfolio.png';
+import gym from '../img/gym.png';
+import food from '../img/food.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Card from './card.jsx';
 
 function Projects() {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, []);
+
+    const cardsData = [
+        
+        {
+            title: 'Social Media Clone',
+            imgUrl: socialmedia,
+            language: 'HTML, CSS, JS, BOOTSTRAP',
+        },
+        {
+            title: 'Portfolio Website',
+            imgUrl: portfolio,
+            language: 'React.js',
+        },
+        {
+            title: 'Student Management website',
+            imgUrl: sms,
+            language: 'HTML, CSS, JS, BOOTSTRAP, PHP',
+        },
+        {
+            title: 'E Resource website',
+            imgUrl: eres,
+            language: 'HTML, CSS, JS, BOOTSTRAP, PHP, Jquery',
+        },
+        {
+            title: 'Food Website',
+            imgUrl: food,
+            language: 'HTML, CSS, JS, BOOTSTRAP',
+        },
+        {
+            title: 'Gym Website',
+            imgUrl: gym,
+            language: 'HTML, CSS, JS, BOOTSTRAP',
+        },
+    ];
     return (
-        <section className="projects">
-            <p className="projectTitle">My Projects</p>
-            <div className="all">
-                <div class="card-container">
-                    <div class="card">
-                        <div class="front-content">
-                            {/* <p>Project name</p> */}
-                            <img src={img} alt="" className="projectimg" />
-                        </div>
-                        <div class="content">
-                            <p class="heading">Project Name</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipii
-                                voluptas ten mollitia pariatur odit, ab
-                                minus ratione adipisci accusamus vel est excepturi laboriosam magnam
-                                necessitatibus dignissimos molestias.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="front-content">
-                            {/* <p>Project name</p> */}
-                            <img src={img} alt="" className="projectimg" />
-                        </div>
-                        <div class="content">
-                            <p class="heading">Project Name</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipii
-                                voluptas ten mollitia pariatur odit, ab
-                                minus ratione adipisci accusamus vel est excepturi laboriosam magnam
-                                necessitatibus dignissimos molestias.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="front-content">
-                            {/* <p>Project name</p> */}
-                            <img src={img} alt="" className="projectimg" />
-                        </div>
-                        <div class="content">
-                            <p class="heading">Project Name</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipii
-                                voluptas ten mollitia pariatur odit, ab
-                                minus ratione adipisci accusamus vel est excepturi laboriosam magnam
-                                necessitatibus dignissimos molestias.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="front-content">
-                            {/* <p>Project name</p> */}
-                            <img src={img} alt="" className="projectimg" />
-                        </div>
-                        <div class="content">
-                            <p class="heading">Project Name</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipii
-                                voluptas ten mollitia pariatur odit, ab
-                                minus ratione adipisci accusamus vel est excepturi laboriosam magnam
-                                necessitatibus dignissimos molestias.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="front-content">
-                            {/* <p>Project name</p> */}
-                            <img src={img} alt="" className="projectimg" />
-                        </div>
-                        <div class="content">
-                            <p class="heading">Project Name</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipii
-                                voluptas ten mollitia pariatur odit, ab
-                                minus ratione adipisci accusamus vel est excepturi laboriosam magnam
-                                necessitatibus dignissimos molestias.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="front-content">
-                            {/* <p>Project name</p> */}
-                            <img src={img} alt="" className="projectimg" />
-                        </div>
-                        <div class="content">
-                            <p class="heading">Project Name</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipii
-                                voluptas ten mollitia pariatur odit, ab
-                                minus ratione adipisci accusamus vel est excepturi laboriosam magnam
-                                necessitatibus dignissimos molestias.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div className="projects">
+            <p className="projectTitle" data-aos="zoom-in">My Projects</p>
+            <div className="all" data-aos="zoom-in">
+                {cardsData.map((card, index) => (
+                    <Card
+                        number={index}
+                        title={card.title}
+                        imgUrl={card.imgUrl}
+                        language={card.language}
+                    />
+                ))}
+
             </div>
-        </section>
+        </div>
     );
 }
 export default Projects;

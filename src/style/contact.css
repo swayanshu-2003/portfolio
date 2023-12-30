@@ -1,0 +1,262 @@
+.contact {
+    border: 0.4px solid #05427c;
+    width: 100%;
+    max-width: 70rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 1rem auto;
+}
+
+.top {
+    border-bottom: 0.4px solid #05427c;
+    height: 10rem;
+    background-color: #051b31;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    /* border: 0.1px solid #05427c; */
+    height: 30rem;
+    background-color: #05335c;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-contact {
+    /* border: 2px solid red; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.contact-form {
+    width: 60%;
+    /* border: 2px solid rgb(1, 255, 14); */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inps {
+    width: 88% !important;
+    margin: 0.7rem;
+}
+
+.a {
+    width: 47% !important;
+}
+
+.coolinput {
+
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    position: static;
+    /* max-width: 240px; */
+}
+
+.coolinput label.text {
+    font-size: 0.75rem;
+    color: #ffffffb4;
+    font-weight: 700;
+    position: relative;
+    top: -0.4rem;
+    margin: 0;
+    padding: 0 3px;
+    background: #05335c;
+    width: fit-content;
+}
+
+.inpgrp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    width: 88%;
+}
+
+.inpgrp1 {
+    width: 100% !important;
+}
+
+.connect {
+    margin: 0.2rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bolder;
+}
+
+.connect-desc {
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.input {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #123b61;
+    box-shadow: 0 0 .17vw rgba(250, 243, 243, 0.5), 0 0 0 .15vw transparent;
+    border-radius: 0.4vw;
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    /* max-width: 190px; */
+    width: 100%;
+    transition: .4s;
+    margin: 0;
+}
+
+/* .input:hover {
+    box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
+} */
+
+/* .input:focus {
+    box-shadow: 0 0 0 .15vw skyblue;
+} */
+
+.contact-btn {
+    color: white;
+    width: 88%;
+    /* height: 60px; */
+    /* border: 3px solid #315cfd; */
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #315cfd;
+    font-size: 0.9em;
+    font-weight: 550;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    margin-top: 1.4rem;
+
+}
+
+.contact-btn p {
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-btn:hover {
+    background: white;
+    color: #315cfd;
+    font-size: 1rem;
+}
+
+.mailme,
+.callme {
+    margin: 0 2rem;
+}
+
+.mail-caption,
+.call-caption {
+    color: rgba(255, 255, 255, 0.521);
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+
+.gmail,
+.call {
+    color: white;
+    font-size: 1.3rem;
+    margin: 0;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+    ;
+}
+
+
+.contact-img {
+    
+    /* border: 2px solid white; */
+
+}
+
+.contact-img img {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 17rem;
+    height: 13rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* SocialMediaButtons.css */
+
+.social-media-buttons {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    gap: 1rem;
+    margin: 2rem;
+    height: 2rem;
+}
+
+.social-icon {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007cc4;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #005a8d;
+    width: 50px;
+    height: 50px;
+}
+
+.insta {
+    background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+}
+
+.tweet {
+    background-color: #1DA1F2 !important;
+}
+
+.linkedin {
+    background-color: #0a66c2 !important;
+}
+
+.fb {
+    background-color: #316FF6 !important;
+}
+
+.insta:hover {
+    width: 50px;
+    height: 50px;
+}
