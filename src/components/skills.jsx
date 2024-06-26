@@ -19,21 +19,21 @@ function Skills(){
             <div className="skillbars" data-aos="fade-up">
                 <img src={ui} alt="ui/ux" className="barimg" />
                 <div className="barText">
-                    <p className="barHead">UI/UX Design</p>
+                    <p className="barHead">Web Sockets</p>
                     <p className="barBody">"Innovating the Web, Empowering Your Ideas."!</p>
                 </div>
             </div>
             <div className="skillbars" data-aos="fade-up">
                 <img src={webdev} alt="ui/ux" className="barimg" />
                 <div className="barText">
-                    <p className="barHead">Web Development</p>
+                    <p className="barHead">Full Stack Development</p>
                     <p className="barBody">"Navigating the Digital Landscape with Precision."!</p>
                 </div>
             </div>
             <div className="skillbars" data-aos="fade-up">
                 <img src={frontend} alt="ui/ux" className="barimg" />
                 <div className="barText">
-                    <p className="barHead">FrontEnd Development</p>
+                    <p className="barHead">Next.js</p>
                     <p className="barBody">"Engineering Dreams, Coding Realities."!</p>
                 </div>
             </div>
