@@ -79,7 +79,7 @@ function Navbar() {
                     </ScrollLink>
                 </li>
                 <li className={`links hover-link`}>
-                    <a href="https://drive.google.com/file/d/1-xGm6fo9AR-833wwswigb4rAk3m3Umq6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1UYke8ZZkNZ-NTRMWkiPqaFbFwEe3D5qe/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                         Resume
                     </a>
                 </li>

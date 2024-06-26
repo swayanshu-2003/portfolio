@@ -32,7 +32,128 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+.container-exp {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 5px;
+}
+
+.card-exp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  border: 1px solid #e2e8f0;
+  width: 100%;
+  max-width: 66.66%;
+  margin: auto;
+  margin-top: 3rem;
+  border-radius: 0.75rem;
+  transition: all 0.5s ease-in-out;
+  padding: 10px 20px;
+}
+
+.header-exp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-exp {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.avatar-exp {
+  width: 64px;
+  border-radius: 50%;
+  border: 2px solid #38a169;
+  box-shadow: 0px 4px 6px rgba(0, 128, 0, 0.5);
+  margin: 8px;
+  display: none;
+}
+
+.avatar-exp.md\\:block {
+  display: block;
+}
+
+.profile-info-exp {
+  text-align: left;
+}
+
+.title-exp {
+  font-size: 1.25rem;
+  transition: font-size 1s ease-in-out;
+  text-transform: uppercase;
+}
+
+.highlight-exp {
+  color: #f56565;
+}
+
+.subtitle-exp {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.details-exp {
+  text-align: right;
+  padding: 8px;
+  gap: 16px;
+}
+
+.detail-item-exp {
+  font-size: 1rem;
+  color: #333;
+}
+
+.body-exp {
+  text-align: left;
+  padding: 8px;
+}
+
+.description-exp {
+  font-size: 1rem;
+  color: #718096;
+  padding-bottom: 16px;
+}
+
+.key-responsibilities-title-exp {
+  font-size: 1rem;
+  color: #38a169;
+  font-weight: 600;
+}
+
+.responsibilities-list-exp {
+  font-size: 1rem;
+  list-style-type: disc;
+  margin-left: 24px;
+}
+
+.about-exp {
+  width: 100%;
+  padding: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

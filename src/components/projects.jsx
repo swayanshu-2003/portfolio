@@ -12,6 +12,7 @@ import yt_clone from '../img/yt_clone.png';
 import musix from '../img/musix.png';
 import chatApp from '../img/chatApp.png';
 import crypto from '../img/crypto.png';
+import planning from '../img/planning.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Card from './card.jsx';
@@ -23,6 +24,12 @@ function Projects() {
 
     const cardsData = [
 
+        {
+            title: 'Plan It:Planning & COllaborating Application',
+            imgUrl: planning,
+            language: 'React.js, TailwindCSS, Typescript, Express, Postgres, Prisma',
+            link: 'https://planning-app-frontend.vercel.app/',
+        },
         {
             title: 'CryptoCurrency app with Updated Data',
             imgUrl: crypto,

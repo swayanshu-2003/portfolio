@@ -6,7 +6,7 @@ import DecodeAnimation from "react-decode-animation";
 import img from '../img/my.gif';
 
 function Intro() {
-    const texts = ["Web developer", "FrontEnd Developer", "React Enthusiast", "Student"];
+    const texts = ["Full Stack developer", "FrontEnd Developer", "Backend Developer", "Student"];
     const [textIndex, setTextIndex] = useState(0);
     const [text, setText] = useState(texts[textIndex]);
     const decodeRef = useRef();

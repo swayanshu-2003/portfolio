@@ -6,6 +6,7 @@ import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Bg from './components/background1';
+import Experience from './components/experience';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 
       <Intro />
       <Skills />
+      <Experience />
       <Projects />
       <Contact />
       <Footer />
