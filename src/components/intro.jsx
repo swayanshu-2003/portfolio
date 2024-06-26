@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import '../style/intro.css';
+// import '../style/intro_light.css';
 import DecoderTextAnimation from '../components/decoder';
 import DecodeAnimation from "react-decode-animation";
 import img from '../img/my.gif';
@@ -21,7 +22,7 @@ function Intro() {
     }, [textIndex, texts]);
 
     return (
-        <div className='intro'>
+        <div className='intro' id="home">
             <div className="left">
                 <p className="hello">Hello,</p>
                 <h1 className="main">
@@ -31,14 +32,14 @@ function Intro() {
                     </span>
                     <span className="curser">&nbsp;|</span>
                 </h1>
-                <div className="designation">
+                <div className="designation"> {'< '}
                     <span className="designation">
                         <DecodeAnimation
                             key={decodeRef.current}
                             text={text}
                             autoplay
                         />
-                    </span>&nbsp;!
+                    </span>{' />'}
                 </div>
                 <p className="tagline">Turning Ideas into Interactive Experiences</p>
             </div>

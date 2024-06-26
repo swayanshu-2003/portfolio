@@ -5,13 +5,15 @@ import Skills from './components/skills';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
-import { animateScroll } from 'react-scroll';
+import Bg from './components/background1';
 
 
 function App() {
   return (
     <>
       <Navbar />
+
+
       <Intro />
       <Skills />
       <Projects />

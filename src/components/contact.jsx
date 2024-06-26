@@ -10,7 +10,7 @@ const Contact = () => {
         AOS.init({ duration: 1300 });
     }, []);
     return (
-        <div className="contact" data-aos="fade-up">
+        <div className="contact" id="contact" data-aos="fade-up">
             <div className="top">
                 <p className="connect" data-aos="fade-in">LET'S CONNECT !</p>
                 <p className="connect-desc" data-aos="fade-in">
@@ -23,7 +23,7 @@ const Contact = () => {
                 </div>
                     <div className="mailme">
                         <p className="mail-caption" data-aos="fade-up">write an e-mail</p>
-                        <p className="gmail" data-aos="fade-up">swayanshu2003@gmail.com</p>
+                        <p className="gmail" data-aos="fade-up"><a href="mailto:swayanshu2003@gmail.com">swayanshu2003@gmail.com</a></p>
                     </div>
                     <div className="callme">
                         <p className="call-caption" data-aos="fade-up">call me at</p>
@@ -47,7 +47,7 @@ const Contact = () => {
 
 
                 </div>
-                <div className="contact-form">
+                <form action="mailto:swayanshu2003@gmail.com" className="contact-form" method="GET">
                     <div className="inpgrp inps">
                         <div className="coolinput a">
                             <label htmlFor="name" className="text" data-aos="fade-up">NAME</label>
@@ -69,7 +69,7 @@ const Contact = () => {
                     <button className="contact-btn" data-aos="fade-up">
                         <p>send message</p>
                     </button>
-                </div>
+                </form>
             </div>
         </div>
     );

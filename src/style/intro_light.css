@@ -1,0 +1,54 @@
+.intro {
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    color: black; /* Change text color to black */
+    background-color: white; /* Change background color to white */
+    width: 100%;
+    max-width: 70rem;
+    margin: 9rem auto;
+}
+
+.name {
+    color: orange;
+}
+
+.hello {
+    color: black; /* Change text color to black */
+}
+
+.codedtext {
+    color: black; /* Change text color to black */
+}
+
+.designation {
+    color: black; /* Change text color to black */
+}
+
+.tagline {
+    color: rgba(0, 0, 0, 0.582); /* Change text color to black with the same transparency */
+}
+
+.pic {
+    -webkit-transform: scaleX(1); /* Remove scaleX(-1) for normal image orientation */
+    transform: scaleX(1);
+}
+
+.codedText {
+    height: 100vh;
+}
+
+.curser {
+    font-size: 2.99rem;
+}
+
+.codedtext {
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+}
+
+.tagline {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

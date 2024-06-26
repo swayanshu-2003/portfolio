@@ -172,14 +172,16 @@
     font-size: 0.6rem;
 }
 
-.gmail,
+.gmail a,
 .call {
+    text-decoration: none;
     color: white;
     font-size: 1.3rem;
     margin: 0;
     font-family: 'Baloo Bhaina 2', sans-serif;
     ;
 }
+
 
 
 .contact-img {
@@ -231,7 +233,7 @@
     font-size: 18px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    transition: width 0.3s ease, height 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease !important;
 }
 
 .social-icon:hover {

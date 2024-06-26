@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const Card = ({ number, title, language, imgUrl }) => {
+const Card = ({ number, title, language, imgUrl, link }) => {
     //   const cardStyle = {
     //     backgroundImage: `url('${imgUrl}')`
     //   };
@@ -23,7 +23,7 @@ const Card = ({ number, title, language, imgUrl }) => {
                     </div>
                 </div>
                 <div className="card__img" style={{ backgroundImage: `url(${imgUrl})`,"backgroundOrigin":"content-box"}}></div>
-                <a href="#" className="card_link">
+                <a href={link} className="card_link" target="_blank">
                     <div className="card__img--hover" style={{ backgroundImage: `url(${imgUrl})` }}></div>
                 </a>
                 <div className="card__info">
