@@ -12,7 +12,7 @@ function Navbar() {
                 <li className='links'><a className='hover-link' href="">About</a></li>
                 <li className='links'><Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500}>About</Link></li>
                 <li className='links'><a className='hover-link' href="">Projects</a></li>
-                <li className='links'><a className='hover-link' href="https://drive.google.com/file/d/1-xGm6fo9AR-833wwswigb4rAk3m3Umq6/view?usp=sharing" target='_blank'>Resume</a></li>
+                <li className='links'><a className='hover-link' href="https://drive.google.com/file/d/1UYke8ZZkNZ-NTRMWkiPqaFbFwEe3D5qe/view?usp=sharing" target='_blank'>Resume</a></li>
             </ul>
             <button>
                 <div class="svg-wrapper-1">
